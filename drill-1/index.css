@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: gray;
+    height: 200px;
+}
+
+
+.side1 {
+    position: fixed;
+    height: 800px;
+    width: 150px;
+    background-color: darkgray;
+    
+}
+
+.side {
+    position: fixed;
+    height: 800px;
+    width:150px;
+    background-color: darkgray;
+    align-items: column;
+    right: 0px;
+}
+
+footer {
+    position: fixed;
+    justify-content: center;
+    right: 150px;
+    height: 70px;
+    width: 1380px;
+    bottom: 0px;
+    background-color: black;
+}
